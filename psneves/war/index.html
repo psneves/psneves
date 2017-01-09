@@ -1,248 +1,183 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Paulo Neves</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link href="./css/styles.css" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" type="text/css" href="./js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
-    <script type="text/javascript" src="./js/jquery.js"></script>
-    <script type="text/javascript" src="./js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-	<script type="text/javascript" src="./js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-	<script type="text/javascript">
-	
-		$(document).ready(function() {
-			
-			$("a#yourpic").fancybox();
-			
-			$("#contato").fancybox({
-				'autoScale'			: true,
-				'transitionIn'		: 'none',
-				'transitionOut'		: 'none',
-				'type'				: 'iframe'
-			});
-		});
-	</script>
-	
-	<!-- Google Analytics -->
-	<script type="text/javascript">
-
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-38778748-1']);
-		  _gaq.push(['_trackPageview']);
-		
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-
-	</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Paulo Neves</title>
+<link type="text/css" rel="stylesheet" href="css/blue.css" />
+<link type="text/css" rel="stylesheet" href="css/print.css" media="print"/>
+<!--[if IE 7]>
+<link href="css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+<link href="css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.tipsy.js"></script>
+<script type="text/javascript" src="js/cufon.yui.js"></script>
+<script type="text/javascript" src="js/scrollTo.js"></script>
+<script type="text/javascript" src="js/myriad.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript">
+		Cufon.replace('h1,h2');
+</script>
 </head>
 <body>
-	<div id="content">
-		<div style="float:left; margin-top:   0px; margin-left:-11px; padding-right:30px;"><img src="./images/pessoal.png" alt="" /></div>
-		<div style="float:left; margin-top: 447px; margin-left:-77px; padding-right:30px;"><img src="./images/skills.png" alt="" /></div>
-		<div style="float:left; margin-top: 680px; margin-left:-76px; padding-right:30px;"><img src="./images/idiomas.png" alt="" /></div>
-		<div style="float:left; margin-top: 828px; margin-left:-77px; padding-right:30px;"><img src="./images/experience.png" alt="" /></div>
-		<div style="float:left; margin-top:1427px; margin-left:-77px; padding-right:30px;"><img src="./images/education.png" alt="" /></div>
-		
-		<div id="introduction"> 
-			<h1>Paulo Neves</h1>
-		</div>
-	
-<!-- 		<div id="personalimg"><a id="yourpic" href="./images/foto-colorida.jpg"><img src="./images/foto.jpg" alt="" /></a></div> -->
-		<br/><br/><br/>
-		<div id="personalinfo">
-			<p>Graduando em ciência da computação na Universidade Federal de São Paulo com experiência em desenvolvimento e segurança da informação.</p>
-			<br />
-			<div class="personalinfoitem">
-				<div style="float:left; margin-top:13px; padding-right:5px;"><img src="./images/user.png" alt="" /></div><h3>Nome:</h3><p>Paulo Sérgio de Souza Neves</p>
-				<div style="float:left; margin-top:13px; padding-right:5px;"><img src="./images/calendar.png" alt="" /></div><h3>Data de nascimento:</h3><p>27 de maio de 1992</p>
-				<div style="float:left; margin-top:13px; padding-right:5px;"><img src="./images/page.png" alt="" /></div><h3>Nacionalidade:</h3><p>Brasileiro</p>
-				<div style="float:left; margin-top:13px; padding-right:5px;"><img src="./images/home.png" alt="" /></div><h3>Endereço:</h3><p>Jardim Paraíso - São José dos Campos-SP</p>
-				<div style="float:left; margin-top:13px; padding-right:5px;"><img src="./images/phone.png" alt="" /></div><h3>Celular:</h3><p>(12) 98876-2305</p>
-				<div style="float:left; margin-top:13px; padding-right:5px;"><img src="./images/email.png" alt="" /></div><h3>E-mail:</h3><p>paulo@psneves.com.br</p>
-			</div>
-		</div>
-		<div id="contact-info">
-			<ul id="social-media" >
-				<li><a href="http://facebook.com/pssneves" target="_blank" class="tooltip"><img src="./images/social-icons/facebook.png"/></a></li>
-				<li><a href="http://www.linkedin.com/profile/view?id=160187193&locale=pt_BR&trk=tab_pro" target="_blank" class="tooltip"><img src="./images/social-icons/linkedin.png"/></a></li>
-				<li><a href="https://twitter.com/pssneves" target="_blank" class="tooltip"><img src="./images/social-icons/twitter.png"/></a></li>
-			</ul>
-		</div>
-		<div id="botoes">
-			<a id="contato" href="contato.html"><img src="./images/bt_contato.png"/></a>
-			<a href="PauloNeves.pdf" target="_blank"><img src="./images/bt_pdf.png"/></a>
-		</div>
-		
-		<div id="skills">
-			<div class="skills-block">
-				<h4>
-					<span class="stars">
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/stargrey.png" alt="star" width="16" height="16" />
-						<img src="./images/stargrey.png" alt="star" width="16" height="16" />
-					</span>
-				</h4>
-				<h2>CSS</h2>
-			</div>
-			<div class="skills-block">
-				<h4>
-					<span class="stars">
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/stargrey.png" alt="star" width="16" height="16" />
-					</span>
-				</h4>
-				<h2>Google App Engine</h2>
-			</div>
-			<div class="skills-block">
-				<h4>
-					<span class="stars">
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-					</span>
-				</h4>
-				<h2>HTML</h2>
-			</div>
-			<div class="skills-last-block">
-				<h4>
-					<span class="stars">
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-					</span>
-				</h4>
-				<h2>Javascript</h2>
-			</div>
-		</div>
-		<div id="skills-right">			
-			<div class="skills-block">
-				<h4>
-					<span class="stars">
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/stargrey.png" alt="star" width="16" height="16" />
-					</span>
-				</h4>
-				<h2>Java EE</h2>
-			</div>
-			<div class="skills-block">
-				<h4>
-					<span class="stars">
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-					</span>
-				</h4>
-				<h2>jQuery</h2>
-			</div>			
-			<div class="skills-block">
-				<h4>
-					<span class="stars">
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/stargrey.png" alt="star" width="16" height="16" />
-						<img src="./images/stargrey.png" alt="star" width="16" height="16" />
-					</span>
-				</h4>
-				<h2>PhoneGap</h2>
-			</div>
-			<div class="skills-last-block">
-				<h4>
-					<span class="stars">
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/stargrey.png" alt="star" width="16" height="16" />
-					</span>
-				</h4>
-				<h2>SQL</h2>
-			</div>
-		</div>
-		
-		<div class="line"></div>
-		
-		<div id="skills">
-			<div class="skills-block">
-				<h4>
-					<span class="stars">
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/stargrey.png" alt="star" width="16" height="16" />
-						<img src="./images/stargrey.png" alt="star" width="16" height="16" />
-					</span>
-				</h4>
-				<h2>Espanhol</h2>
-			</div>
-			<div class="skills-block">
-				<h4>
-					<span class="stars">
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/star.png" alt="star" width="16" height="16" />
-						<img src="./images/stargrey.png" alt="star" width="16" height="16" />
-					</span>
-				</h4>
-				<h2>Inglês</h2>
-			</div>
-			<br/>
-		</div>
-		<div class="line"></div>
-		<div class="workexperience">
-			<h4>jan/2014 - presente</h4>
-			<h2><a href="https://www.jnjbrasil.com.br/" target="_blank">Johnson & Johnson</a></h2>
-			<h3>Estagiário</h3>
-			<p class="paragrafo">Estagiário no time de IT Risk Assurance.<br/>
-			Trabalhos realizados na área de segurança da informação, controle de treinamentos e controle de normas e procedimentos.</p>
-			<br />
-			<h4>dez/2011 - nov/2013</h4>
-			<h2><a href="http://www.mentorinterativa.com.br/" target="_blank">Mentor Interativa</a></h2>
-			<h3>Programador Pleno</h3>
-			<p class="paragrafo">Desenvolvimento de projetos em Java que utiliza Google App Engine, NoSQL e Struts 2.<br/>
-			Criação de aplicativos móveis utilizando PhoneGap.</p>
-			<br />
-			<h4>jan/2011 - dez/2011</h4>
-			<h2><a href="http://www.stefanini.com/" target="_blank">Stefanini</a></h2>
-			<h3>Programador</h3>
-			<p class="paragrafo">Desenvolvimento de projetos Java Web que utilizam frameworks e banco de dados diferentes.</p>
-			<br />
-			<h4>jan/2010 - jun/2010</h4>
-			<h2><a href="http://www.seufuturonapratica.com.br/portal/index.php?id=2562&tx_ttnews%5Bpointer%5D=38&tx_ttnews%5Btt_news%5D=8167&tx_ttnews%5BbackPid%5D=2561&cHash=6c6f446586" target="_blank">FAJTec</a></h2>
-			<h3>Monitor</h3>
-			<p class="paragrafo">Elaborava avaliações e auxiliava os alunos do curso Introdução a Programação em Java a entender o conteúdo e fazer exercícios.</p>
-			<br />
-			<h4>mai/2008 - set/2009</h4>
-			<h2><a href="http://www.datacomputadores.com.br" target="_blank">Data Computadores</a></h2>
-			<h3>Instrutor de informática</h3>
-			<p class="paragrafo">Instrutor dos módulos: Windows, Word, Excel, PowerPoint, Access, Secretariado, Contabilidade, Publicidade, Internet e Excel Avançado.</p>
-		</div>
-		<div class="line"></div>
-		<div class="education">
-			<h4>jan/2011 - dez/2015</h4>
-			<h2>Universidade Federal de São Paulo</h2>
-			<h3><a href="http://www.sjc.unifesp.br/portal/cienciadacomputacao" target="_blank">Bacharelado em Ciência da Computação</a></h3>
-			<p class="paragrafo">Atualmente estou cursando o último semestre do curso, no entanto, não me formarei esse ano pois escolhi deixar o trabalho de conclusão de curso para ser realizado no ano de 2015, trabalho necessário para obter o título de bacharel de ciência da computação.</p>
-		</div>
-	</div>
-	<p class="developer"><a style="color:#bbbbbb" href="http://www.psneves.com.br">© 2014 psneves.com.br - Todos os direitos reservados</a></p>	
+<!-- Begin Wrapper -->
+<div id="wrapper">
+  <div class="wrapper-top"></div>
+  <div class="wrapper-mid">
+    <!-- Begin Paper -->
+    <div id="paper">
+      <div class="paper-top"></div>
+      <div id="paper-mid">
+        <div class="entry">
+          <!-- Begin Image -->
+          <img class="portrait" src="images/image.png" alt="Paulo Neves" />
+          <!-- End Image -->
+          <!-- Begin Personal Information -->
+          <div class="self">
+            <h1 class="name">Paulo Neves <br />
+              <span>Computer scientist</span></h1>
+            <ul>
+              <li class="ad">Sao Jose dos Campos-SP, Brazil</li>
+              <li class="mail">paulo@psneves.com.br</li>
+              <li class="web">www.psneves.com.br</li>
+            </ul>
+          </div>
+          <!-- End Personal Information -->
+          <!-- Begin Social -->
+          <div class="social">
+            <ul>
+              <li><a class='north' href="PauloNeves.pdf" title="Download .pdf"><img src="images/icn-save.jpg" alt="Download the pdf version" /></a></li>
+              <li><a class='north' href="javascript:window.print()" title="Print"><img src="images/icn-print.jpg" alt="" /></a></li>
+              <li><a class='north' id="contact" href="contact/index.html" title="Contact Me"><img src="images/icn-contact.jpg" alt="" /></a></li>
+              <li><a class='north' href="http://www.linkedin.com/profile/view?id=160187193" title="My LinkedIn Profile"><img src="images/icn-linkedin.png" alt="" /></a></li>
+              <li><a class='north' href="http://facebook.com/pssneves" title="My Facebook Profile"><img src="images/icn-facebook.jpg" alt="" /></a></li>
+            </ul>
+          </div>
+          <!-- End Social -->
+        </div>
+        <!-- Begin 1st Row -->
+        <div class="entry">
+          <h2>SUMMARY</h2>
+          <p>Bachelor of computer science and trilingual professional with more than 6 years' experience in information technology and background in computerized system validation, information security, IT compliance and software development.</p>
+        </div>
+        <!-- End 1st Row -->
+        <!-- Begin 2nd Row -->
+        <div class="entry">
+          <h2>EDUCATION</h2>
+          <div class="content">
+            <h3>Jan 2011 - Jun 2015</h3>
+            <p>Federal University of Sao Paulo - UNIFESP<br />
+              <em>Bachelor Degree, Computer Science</em></p>
+          </div>
+        </div>
+        <!-- End 2nd Row -->
+        <!-- Begin 3rd Row -->
+        <div class="entry">
+          <h2>LANGUAGES</h2>
+          	<ul class="skills">
+              <li>Portuguese</li>
+              <li>English</li>
+              <li>Spanish</li>
+            </ul>
+        </div>
+        <!-- End 3rd Row -->
+        <!-- Begin 4th Row -->        
+        <div class="entry">
+          <h2>EXPERIENCE</h2>
+          <div class="content">
+            <h3>Jun 2015 - Present</h3>
+            <p>Johnson & Johnson - Information Security and Risk Manament<br />
+            	Sao Jose dos Campos-SP, Brazil
+              <em>IT Risk Assurance Analyst</em></p>
+            <ul class="info">
+              <li>Approved JD Edwards change requests after ensure that Impact Assessment, Functional Specification, Technical Specification and User Acceptance Tests are complying with JD Edwards change control requirements;</li>
+              <li>Reviewed Compliance Analysis for applications, verifying if they have all the approvers required, good documentation practices and if the content is relevant for the intent of the document;</li>
+			  <li>Reviewed and approved user acceptance tests scripts for changes in JD Edwards and SDLC documentation regarding the development of new applications;</li>
+			  <li>Collaborated for the retirement of 10+ applications reviewing and approving Retirement Plans and Retirement Reports;</li>
+			  <li>Provided guidance and support for BUIT related to SDLC documentation, explaining them what is the purpose of each document and forwarding them approved documents to help them filling the deliverables. This proactive activity made the authors complete the documents faster;</li>
+			  <li>Managed the migration of procedures and work instructions from ADAPTIV to Tru VAULT;</li>
+			  <li>Created metrics related to systems retirements, JDE change requests and security incidents for the team’s dashboard, helping the management in decision-making;</li>
+			  <li>Instructed and led the team's intern to manage security incidents reports, JDE change requests and the IA PP training assignments. Also helped him with his doubts, accelerating his performance at work and making him complete the activities much faster than without my supervision.</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>Jan 2014 - Jun 2015</h3>
+            <p>Johnson & Johnson - Information Security and Risk Manament<br />
+            	Sao Jose dos Campos-SP, Brazil
+              <em>Intern</em></p>
+            <ul class="info">
+				<li>Defined and implemented the code review process for MD LatAm;</li>
+				<li>Improved the IAPP training control, saving considerable time to perform others activities;</li>
+				<li>Interacted with other business area to adapt and apply the IAPP instructor-led training for non-administration users;</li>
+				<li>Recovered the administration of a system used by ITRA team. It was done by interacting with others J&J IT teams;</li>
+				<li>Became responsible for update all the IT policies and procedures in the A DA PTIV system when a member of the team dropped out;</li>
+				<li>Others activities performed: reviewed IAPP and BPRA assessments, created risk acknowledgment documents, supported the IT community with SDLC documents, controlled the security vulnerabilities for the websites, managed security incidents involving lost/stolen devices and approved change requests in JD Edwards as Compliance.</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>Dec 2011 - Nov 2013</h3>
+            <p>Mentor Interativa<br />
+            	Sao Jose dos Campos-SP, Brazil
+              <em>Software Developer</em></p>
+            <ul class="info">
+            	<li>Contracted as fixed-term to work for the project sistemacomker.com.br and was promoted to permanent employee;</li>
+				<li>Collaborated for the project creation using Agile methodology;</li>
+				<li>Supported the post-implementation phase;</li>
+				<li>Created a portal using liferay, an open source application, and implemented the connection with sistemacomker.com.br using web methods;</li>
+				<li>Implemented web methods to connect the sistemacomker.com.br with a moodle instance. It saved time and money for the project because avoided creation of many features that moodle already has;</li>
+				<li>Installed and configured a conference application using the open source tool named BigBlueButton. This application averted the purchase of a paid tool;</li>
+				<li>Idealized and implemented the first mobile application created by this company. Attended meetings to define the price of the product. Worked directly with the designer without other guidance to develop the application. This project was successfully implemented for McDonald's;</li>
+				<li>Main technologies and methodologies used: Scrum, XP, Java, Google App Engine, SQL Server, PHP, MySQL and PhoneGap.</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>Jan 2011 - Dec 2011</h3>
+            <p>Stafanini<br />
+            	Jaguariuna-SP, Brazil
+              <em>Junior Software Developer</em></p>
+            <ul class="info">
+            	<li>Promoted to permanent employee after just 2 months of internship;</li> 
+				<li>Collaborated for the translation of an old system to Java. The system is used by OdontoPrev;</li>
+				<li>Developed features to include a new type of credit card in a Cielo’s application;</li>
+				<li>Main technologies used: Java, C#, Struts, SQL Server and MySQL.</li>				
+            </ul>
+          </div>
+          <div class="content">
+            <h3>Jan 2010 - Jul 2010</h3>
+            <p>FAJTec<br />
+            	Jaguariuna-SP, Brazil
+              <em>Intern</em></p>
+            <ul class="info">
+            	<li>Invited to be intern for the company while completing Introduction to Programming in Java course;</li>
+				<li>Helped students of the course Introduction to Programming in Java to understand the content;</li>
+				<li>Created and applied tests for the students.</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>May 2008 - Sep 2009</h3>
+            <p>Data Computadores<br />
+            	Jaguariuna-SP, Brazil
+              <em>Instructor (Self-employed)</em></p>
+            <ul class="info">
+            	<li>The instructor who had the low est percentage of students dropping out;</li>
+				<li>Taught the students how to perform basic tasks in Windows and using Microsoft Office applications.</li>
+            </ul>
+          </div>
+        </div>        
+        <!-- End 4th Row -->
+      </div>
+      <div class="clear"></div>
+      <div class="paper-bottom"></div>
+    </div>
+    <!-- End Paper -->
+  </div>
+  <div class="wrapper-bottom"></div>
+</div>
+<div id="message"><a href="#top" id="top-link">Go to Top</a></div>
+<!-- End Wrapper -->
 </body>
 </html>
