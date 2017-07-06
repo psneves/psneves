@@ -22,7 +22,7 @@ $(function () {
 					}
 				}, 100);
 			});
-			$('#top-link').click(function(e) { 
+			$('#message').click(function(e) { 
 				e.preventDefault();
 				$.scrollTo(0,300); 
 			   });
